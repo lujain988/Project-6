@@ -1,0 +1,305 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|c:\\users\\orange\\desktop\\new\\lablestore\\project-06\\project-06\\controllers\\ecommercecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\controllers\\ecommercecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\views\\ecommerce\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\views\\ecommerce\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\views\\ecommerce\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\views\\ecommerce\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\views\\ecommerce\\showmore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\views\\ecommerce\\showmore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\views\\ecommerce\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\views\\ecommerce\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\content\\css\\util.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\content\\css\\util.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\content\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\content\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\content\\vendor\\jquery\\jquery-3.2.1.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\content\\vendor\\jquery\\jquery-3.2.1.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\content\\js\\map-custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\content\\js\\map-custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\content\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\content\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\views\\default\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\views\\default\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\views\\ecommerce\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\views\\ecommerce\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\views\\ecommerce\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\views\\ecommerce\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\project-06\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32A673B6-6991-4EF6-9AA2-673458737A57}|Project-06\\Project-06.csproj|solutionrelative:project-06\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "util.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Content\\css\\util.css",
+              "RelativeDocumentMoniker": "Project-06\\Content\\css\\util.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Content\\css\\util.css",
+              "RelativeToolTip": "Project-06\\Content\\css\\util.css",
+              "ViewState": "AQIAAOcMAAAAAAAAAIAwwAMNAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-18T09:50:57.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Content\\css\\main.css",
+              "RelativeDocumentMoniker": "Project-06\\Content\\css\\main.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Content\\css\\main.css",
+              "RelativeToolTip": "Project-06\\Content\\css\\main.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-18T09:48:24.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "jquery-3.2.1.min.js",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Content\\vendor\\jquery\\jquery-3.2.1.min.js",
+              "RelativeDocumentMoniker": "Project-06\\Content\\vendor\\jquery\\jquery-3.2.1.min.js",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Content\\vendor\\jquery\\jquery-3.2.1.min.js",
+              "RelativeToolTip": "Project-06\\Content\\vendor\\jquery\\jquery-3.2.1.min.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-18T09:46:21.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "map-custom.js",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Content\\js\\map-custom.js",
+              "RelativeDocumentMoniker": "Project-06\\Content\\js\\map-custom.js",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Content\\js\\map-custom.js",
+              "RelativeToolTip": "Project-06\\Content\\js\\map-custom.js",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAewDwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-18T09:41:04.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Content\\js\\main.js",
+              "RelativeDocumentMoniker": "Project-06\\Content\\js\\main.js",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Content\\js\\main.js",
+              "RelativeToolTip": "Project-06\\Content\\js\\main.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-18T09:37:07.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Ecommerce\\Login.cshtml",
+              "RelativeDocumentMoniker": "Project-06\\Views\\Ecommerce\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Ecommerce\\Login.cshtml",
+              "RelativeToolTip": "Project-06\\Views\\Ecommerce\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T09:32:21.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Ecommerce\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Project-06\\Views\\Ecommerce\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Ecommerce\\Profile.cshtml",
+              "RelativeToolTip": "Project-06\\Views\\Ecommerce\\Profile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T09:32:21.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShowMore.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Ecommerce\\ShowMore.cshtml",
+              "RelativeDocumentMoniker": "Project-06\\Views\\Ecommerce\\ShowMore.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Ecommerce\\ShowMore.cshtml",
+              "RelativeToolTip": "Project-06\\Views\\Ecommerce\\ShowMore.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEwAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T09:32:19.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Default\\Shop.cshtml",
+              "RelativeDocumentMoniker": "Project-06\\Views\\Default\\Shop.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Default\\Shop.cshtml",
+              "RelativeToolTip": "Project-06\\Views\\Default\\Shop.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T09:29:01.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Project-06\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Project-06\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T09:04:07.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "Project-06\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "Project-06\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAAC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T09:03:50.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Project-06\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Project-06\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAD0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T07:39:33.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Project-06\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Project-06\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T07:25:16.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Ecommerce\\Shop.cshtml",
+              "RelativeDocumentMoniker": "Project-06\\Views\\Ecommerce\\Shop.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Ecommerce\\Shop.cshtml",
+              "RelativeToolTip": "Project-06\\Views\\Ecommerce\\Shop.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T07:08:55.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Ecommerce\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project-06\\Views\\Ecommerce\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Ecommerce\\Index.cshtml",
+              "RelativeToolTip": "Project-06\\Views\\Ecommerce\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T07:01:03.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Ecommerce\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Project-06\\Views\\Ecommerce\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Views\\Ecommerce\\Cart.cshtml",
+              "RelativeToolTip": "Project-06\\Views\\Ecommerce\\Cart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T06:51:03.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EcommerceController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Controllers\\EcommerceController.cs",
+              "RelativeDocumentMoniker": "Project-06\\Controllers\\EcommerceController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\new\\LableStore\\Project-06\\Project-06\\Controllers\\EcommerceController.cs",
+              "RelativeToolTip": "Project-06\\Controllers\\EcommerceController.cs",
+              "ViewState": "AQIAAPcAAAAAAAAAAAAAAAcBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T14:48:21.5Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

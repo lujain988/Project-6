@@ -179,7 +179,6 @@ namespace Project_06.Controllers
         {
             if (Session["UserID"] == null)
             {
-                TempData["ErrorMessage"] = "You must be logged in to view your cart.";
                 return RedirectToAction("Login", "Ecommerce");
             }
 
