@@ -1,0 +1,220 @@
+﻿@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<!-- Slider --><section class="section-slide">
+    <div class="wrap-slick1">
+        <div class="slick1">
+            <div class="item-slick1" style="background-image: url('@Url.Content("~/Content/images/slide-01.jpg")');">
+                <div class="container h-full">
+                    <div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
+                        <div class="layer-slick1 animated visible-ture" data-appear="fadeInDown" data-delay="0">
+                            <span class="ltext-101 cl2 respon2">
+                                Women Collection 2018
+                            </span>
+                        </div>
+
+                        <div class="layer-slick1 animated visible-ture" data-appear="fadeInUp" data-delay="800">
+                            <h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
+                                NEW SEASON
+                            </h2>
+                        </div>
+
+                        <div class="layer-slick1 animated visible-true" data-appear="zoomIn" data-delay="1400">
+                            <a href="@Url.Action("Shop", "Ecommerce")" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04" style="display: block !important; position: relative !important; z-index: 100 !important;">
+                                Shop Now
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-slick1" style="background-image: url('@Url.Content("~/Content/images/slide-02.jpg")');">
+                <div class="container h-full">
+                    <div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
+                        <div class="layer-slick1 animated visible-true" data-appear="rollIn" data-delay="0">
+                            <span class="ltext-101 cl2 respon2">
+                                Men New-Season
+                            </span>
+                        </div>
+
+                        <div class="layer-slick1 animated visible-true" data-appear="lightSpeedIn" data-delay="800">
+                            <h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
+                                Jackets & Coats
+                            </h2>
+                        </div>
+
+                        <div class="layer-slick1 animated visible-true" data-appear="zoomIn" data-delay="1400">
+                            <a href="@Url.Action("Shop", "Ecommerce")" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04" style="display: block !important; position: relative !important; z-index: 100 !important;">
+                                Shop Now
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-slick1" style="background-image: url('@Url.Content("~/Content/images/slide-03.jpg")');">
+                <div class="container h-full">
+                    <div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
+                        <div class="layer-slick1 animated visible-ture" data-appear="rotateInDownLeft" data-delay="0">
+                            <span class="ltext-101 cl2 respon2">
+                                Women Collection 2018
+                            </span>
+                        </div>
+
+                        <div class="layer-slick1 animated visible-ture" data-appear="rotateInUpRight" data-delay="800">
+                            <h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
+                                New arrivals
+                            </h2>
+                        </div>
+
+                        <div class="layer-slick1 animated visible-true" data-appear="zoomIn" data-delay="1400">
+                            <a href="@Url.Action("Shop", "Ecommerce")" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04" style="display: block !important; position: relative !important; z-index: 100 !important;">
+                                Shop Now
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Categories Section -->
+<div class="sec-banner bg0 p-t-80 p-b-50">
+    <div class="container">
+        <div class="row">
+            @foreach (var cat in Model)
+            {
+                <div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
+                    <!-- Block1 -->
+                    <div class="block1 wrap-pic-w">
+                        <img src="@Url.Content(cat.CategoryImage)" alt="@cat.CategoryName">
+
+                        <a href="@Url.Action("Shop", "Ecommerce", new { id = cat.ID })" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
+                            <div class="block1-txt-child1 flex-col-l">
+                                <span class="block1-name ltext-102 trans-04 p-b-8">
+                                    @cat.CategoryName
+                                </span>
+
+                                <span class="block1-info stext-102 trans-04">
+                                    @cat.Description
+                                </span>
+                            </div>
+
+                            <div class="block1-txt-child2 p-b-4 trans-05">
+                                <div class="block1-link stext-101 cl0 trans-09">
+                                    Shop Now
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Blog Section -->
+<section class="sec-blog bg0 p-t-60 p-b-90">
+    <div class="container">
+        <div class="p-b-66">
+            <h3 class="ltext-105 cl5 txt-center respon1">
+                Our Blogs
+            </h3>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4 p-b-40">
+                <div class="blog-item">
+                    <div class="hov-img0">
+                        <a href="#"><img src="~/Content/images/blog-01.jpg" alt="IMG-BLOG"></a>
+                    </div>
+
+                    <div class="p-t-15">
+                        <div class="stext-107 flex-w p-b-14">
+                            <span class="m-r-3">
+                                <span class="cl4">By</span> Admin
+                                <span class="cl12 m-l-4 m-r-6">|</span>
+                            </span>
+
+                            <span>
+                                22 Jan, 2018
+                                <span class="cl12 m-l-4 m-r-6">|</span>
+                            </span>
+
+                            <span>
+                                8 Comments
+                            </span>
+                        </div>
+
+                        <h4 class="p-b-12">
+                            <a href="#" class="mtext-101 cl2 hov-cl1 trans-04">
+                                Black Friday Guide: Best Sales & Discount Codes
+                            </a>
+                        </h4>
+
+                        <p class="stext-108 cl6">
+                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eget dictum tortor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat similar blocks for more blog items -->
+        </div>
+    </div>
+</section>
+
+<!-- Slick Slider Initialization -->
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            // Initialize the slick slider
+            $('.slick1').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                fade: true,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 2500,
+                arrows: true,
+                prevArrow: '<button class="arrow-slick1 prev-slick1"><i class="fa fa-chevron-left"></i></button>',
+                nextArrow: '<button class="arrow-slick1 next-slick1"><i class="fa fa-chevron-right"></i></button>',
+            });
+
+            // On init, animate the first slide
+            $('.slick1').on('init', function () {
+                animateSlick();
+            });
+
+            // On before slide change, reset the animations
+            $('.slick1').on('beforeChange', function () {
+                $('.layer-slick1').each(function () {
+                    $(this).removeClass($(this).data('appear'));
+                    $(this).css('opacity', '0');
+                });
+            });
+
+            // On after slide change, animate the next slide
+            $('.slick1').on('afterChange', function () {
+                animateSlick();
+            });
+
+            function animateSlick() {
+                $('.slick-active .layer-slick1').each(function () {
+                    var appear = $(this).data('appear');
+                    var delay = $(this).data('delay');
+
+                    $(this).addClass(appear).css('animation-delay', delay + 'ms').css('opacity', '1');
+                });
+            }
+        });
+    </script>
+}

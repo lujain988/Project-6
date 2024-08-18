@@ -1,0 +1,40 @@
+﻿@model Project_06.Models.User
+
+<section class="text-center">
+    <!-- Background image -->
+    <div class="p-5 bg-image" style="background-image: url('https://mdbootstrap.com/img/new/textures/full/171.jpg'); height: 300px;"></div>
+    <!-- Background image -->
+    <div class="container">
+        <div class="card mx-4 mx-md-5 shadow-5-strong bg-body-tertiary" style="margin-top: -100px; backdrop-filter: blur(30px);">
+            <div class="card-body py-5 px-md-5">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="fw-bold mb-5">Login</h2>
+                        @using (Html.BeginForm("Login", "Ecommerce", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            <!-- Email input -->
+                            <div data-mdb-input-init class="form-outline mb-4">
+                                @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+                                @Html.LabelFor(model => model.Email, new { @class = "form-label" })
+                                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                            </div>
+                            <!-- Password input -->
+                            <div data-mdb-input-init class="form-outline mb-4">
+                                @Html.PasswordFor(model => model.PasswordHash, new { @class = "form-control" })
+                                @Html.LabelFor(model => model.PasswordHash, new { @class = "form-label" })
+                                @Html.ValidationMessageFor(model => model.PasswordHash, "", new { @class = "text-danger" })
+                            </div>
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-primary btn-block mb-4">Login</button>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,267 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="icon" href="~/Content/images/icons/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Include bundled CSS files -->
+    @Styles.Render("~/bundles/css")
+</head>
+<body class="animsition">
+    <!-- Header -->
+    <header>
+        <div class="container-menu-desktop">
+            <!-- Topbar -->
+            <div class="top-bar">
+                <div class="content-topbar flex-sb-m h-full container">
+                    <div class="left-top-bar">
+                        Free shipping for standard order over $100
+                    </div>
+
+                    <div class="right-top-bar flex-w h-full">
+                        @if (Session["UserID"] != null)
+                        {
+                            <a href="@Url.Action("Profile", "Ecommerce", new { id = Session["UserID"] })" class="flex-c-m trans-04 p-lr-25">My Account</a>
+                        }
+
+                        else
+                        {
+                            <a href="@Url.Action("Login", "Ecommerce")" class="flex-c-m trans-04 p-lr-25">Login Now!</a>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrap-menu-desktop">
+                <nav class="limiter-menu-desktop container">
+                    <!-- Logo desktop -->
+                    <a href="@Url.Action("Index", "Ecommerce")" class="logo">
+                        <img src="~/Content/lable-removebg-preview.png" alt="IMG-LOGO" style="max-height: 100px; width: auto;">
+                    </a>
+
+                    <!-- Menu desktop -->
+                    <div class="menu-desktop">
+                        <ul class="main-menu">
+                            <li class="active-menu">
+                                <a href="@Url.Action("Index", "Ecommerce")">Home</a>
+                            </li>
+                            <li><a href="@Url.Action("Shop", "Ecommerce")">Shop</a></li>
+                            <li><a href="@Url.Action("About", "Ecommerce")">About</a></li>
+
+                            @if (Session["UserEmail"] != null)
+                            {
+                                <li><a href="@Url.Action("Logout", "Ecommerce")">Logout</a></li>
+                            }
+                            else
+                            {
+                                <li><a href="@Url.Action("Login", "Ecommerce")">Login</a></li>
+                                <li><a href="@Url.Action("SignUp", "Ecommerce")">Sign Up</a></li>
+                            }
+                        </ul>
+                    </div>
+
+                    <!-- Icon header -->
+                    <div class="wrap-icon-header flex-w flex-r-m">
+                        <a href="@Url.Action("Cart", "Ecommerce")" class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11  js-show-cart" >
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+
+        <!-- Header Mobile -->
+        <div class="wrap-header-mobile">
+            <!-- Logo mobile -->
+            <div class="logo-mobile">
+                <a href="@Url.Action("Index", "Ecommerce")">
+                    <img src="~/Content/lable-removebg-preview.png" alt="IMG-LOGO" style="max-height: 150px; width: auto;">
+                </a>
+            </div>
+
+            <!-- Icon header -->
+            <div class="wrap-icon-header flex-w flex-r-m">
+                <a href="@Url.Action("Cart", "Ecommerce")" class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11  js-show-cart">
+                    <i class="fa fa-shopping-cart"></i>
+                </a>
+            </div>
+
+            <!-- Button show menu -->
+            <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </div>
+        </div>
+
+        <!-- Menu Mobile -->
+        <div class="menu-mobile">
+            <ul class="topbar-mobile">
+                <li>
+                    <div class="left-top-bar">
+                        Free shipping for standard order over $100
+                    </div>
+                </li>
+
+                <li>
+                    <div class="right-top-bar flex-w h-full">
+                        @if (Session["UserEmail"] != null)
+                        {
+                            <a href="@Url.Action("Profile", "Ecommerce")" class="flex-c-m p-lr-10 trans-04">My Account</a>
+                        }
+                        else
+                        {
+                            <a href="@Url.Action("Login", "Ecommerce")" class="flex-c-m p-lr-10 trans-04">Login Now!</a>
+                        }
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="main-menu-m">
+                <a href="@Url.Action("Index", "Ecommerce")">Home</a>
+                <li><a href="@Url.Action("Shop", "Ecommerce")">Shop</a></li>
+                <li><a href="@Url.Action("About", "Ecommerce")">About</a></li>
+                @if (Session["UserEmail"] != null)
+                {
+                    <li><a href="@Url.Action("Logout", "Ecommerce")">Logout</a></li>
+                }
+                else
+                {
+                    <li><a href="@Url.Action("Login", "Ecommerce")">Login</a></li>
+                    <li><a href="@Url.Action("SignUp", "Ecommerce")">Sign Up</a></li>
+                }
+            </ul>
+        </div>
+
+        <!-- Modal Search -->
+        <div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
+            <div class="container-search-header">
+                <button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
+                    <img src="~/Content/images/icons/icon-close2.png" alt="CLOSE">
+                </button>
+
+              
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="full-width-body">
+        @RenderBody()
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg3 p-t-75 p-b-32">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 p-b-50">
+                    <h4 class="stext-301 cl0 p-b-30">Categories</h4>
+                    <ul>
+                        <li class="p-b-10">
+                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">Women</a>
+                        </li>
+                        <li class="p-b-10">
+                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">Men</a>
+                        </li>
+                        <li class="p-b-10">
+                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">Shoes</a>
+                        </li>
+                        <li class="p-b-10">
+                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">Watches</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 p-b-50">
+                    <h4 class="stext-301 cl0 p-b-30">Help</h4>
+                    <ul>
+                        <li class="p-b-10">
+                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">Track Order</a>
+                        </li>
+                        <li class="p-b-10">
+                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">Returns</a>
+                        </li>
+                        <li class="p-b-10">
+                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">Shipping</a>
+                        </li>
+                        <li class="p-b-10">
+                            <a href="#" class="stext-107 cl7 hov-cl1 trans-04">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 p-b-50">
+                    <h4 class="stext-301 cl0 p-b-30">GET IN TOUCH</h4>
+                    <p class="stext-107 cl7 size-201">
+                        Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
+                    </p>
+                    <div class="p-t-27">
+                        <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                            <i class="fa fa-pinterest-p"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 p-b-50">
+                    <h4 class="stext-301 cl0 p-b-30">Newsletter</h4>
+                    <form>
+                        <div class="wrap-input1 w-full p-b-4">
+                            <input class="input1 bg-none plh1 stext-107 cl7" type="text" name="email" placeholder="email@example.com">
+                            <div class="focus-input1 trans-04"></div>
+                        </div>
+                        <div class="p-t-18">
+                            <button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+                                Subscribe
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="p-t-40">
+                <div class="flex-c-m flex-w p-b-18">
+                    <a href="#" class="m-all-1">
+                        <img src="~/Content/images/icons/icon-pay-01.png" alt="ICON-PAY">
+                    </a>
+                    <a href="#" class="m-all-1">
+                        <img src="~/Content/images/icons/icon-pay-02.png" alt="ICON-PAY">
+                    </a>
+                    <a href="#" class="m-all-1">
+                        <img src="~/Content/images/icons/icon-pay-03.png" alt="ICON-PAY">
+                    </a>
+                    <a href="#" class="m-all-1">
+                        <img src="~/Content/images/icons/icon-pay-04.png" alt="ICON-PAY">
+                    </a>
+                    <a href="#" class="m-all-1">
+                        <img src="~/Content/images/icons/icon-pay-05.png" alt="ICON-PAY">
+                    </a>
+                </div>
+                <p class="stext-107 cl6 txt-center">
+                    &copy; @DateTime.Now.Year All rights reserved | Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <div class="btn-back-to-top" id="myBtn">
+        <span class="symbol-btn-back-to-top"><i class="zmdi zmdi-chevron-up"></i></span>
+    </div>
+
+    <!-- Scripts -->
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/plugins")
+    @Scripts.Render("~/bundles/main")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
